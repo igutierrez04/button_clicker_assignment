@@ -1,0 +1,40 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto condensed', sans-serif;
+}
+
+.nav-container {
+    width: 100%;
+    background-color: #333333;
+}
+
+
+.nav {
+    margin: 0 auto;
+    height: 80px;
+    width: 65%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;
+}
+
+.nav input[type=text]{
+    font-size: 30px;
+}
+
+.nav-title {
+    margin-left: 10px;
+    font-size: 45px;
+}
+
+.btn {
+    height: 35px;
+    width: 100px;
+    color: #ffffff;
+    font-size: 16px;
+    border: 2px solid black;
+    box-shadow: 4px 3px #000000;
+    background-color: #17a2b8;
+}
