@@ -15,26 +15,52 @@
         <div class="nav">
             <h1 class="nav-title">Dojonary</h1>
             <input type="text" placeholder="Search..">
-            <button class="btn">Login</button>
+            <button class="btn" onclick="change(this)">Login</button>
         </div>
     </div>
     <!-- main content -->
     <div class="body-container">
-        
-        <!-- left column -->
-        <div class="left-column">
+
+        <!-- left side column -->
+        <div class="flex-column-1">
+            <!-- dictionary card -->
             <div class="dict-card">
-                <h1>Ninja</h1>
-                <h3>noun</h3>
-                <h3>Plural: ninjas</h3>
-                <button>13 Likes</button>
+                <div class="left-content">
+                    <h1>ninja</h1>
+                    <p><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class="likes-button" onclick="popup()">13 likes</button>
+                </div>
+                <p> 
+                    A practitioner skilled in the <a href="#">Japanese</a> art 
+                    of <a href="#">ninjutsu</a>
+                </p>
             </div>
-            <div>
-                <p>A practitioner skilled in the <a href="#">Japanese</a>
-                art of <a href="#">ninjutsu</a>
+            <!-- second dictionary card -->
+            <div class="dict-card">
+                <div class="left-content">
+                    <h1>ninja</h1>
+                    <p><em>noun</em></p>
+                    <p>Plural: <em>ninjas</em></p>
+                    <button class="likes-button" onclick="popup()">37 likes</button>
+                </div>
+                <p> 
+                    A <a href="#">programmer</a> who breaks down problems with<br>
+                    <a href="#">zen</a>-like focus
                 </p>
             </div>
         </div>
+
+        <!-- right side column -->
+        <div class="flex-column-2">
+
+            <!-- right side card -->
+                <div class="right-side-box">
+                    <h2>Dojonary is define by YOU</h2>
+                    <button class="definition-button" onclick="remove(this)">Add definition</button>
+                </div>
+        </div>
+
     </div>
 
     <script src="script.js"></script>

@@ -13,7 +13,7 @@
 .nav {
     margin: 0 auto;
     height: 80px;
-    width: 65%;
+    width: 50%;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -21,7 +21,9 @@
 }
 
 .nav input[type=text]{
-    font-size: 30px;
+    width: 350px;
+    height: 30px;
+    border: 1px solid black;
 }
 
 .nav-title {
@@ -37,4 +39,67 @@
     border: 2px solid black;
     box-shadow: 4px 3px #000000;
     background-color: #17a2b8;
+}
+
+.body-container {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+}
+
+.flex-column-1 {
+    flex: 2;
+    padding: 20px 0px;
+}
+
+.dict-card {
+    background-color: floralwhite;
+    border: 2px solid black;
+    width: 430px;
+    height: 230px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.left-content {
+    height: 135px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    align-items: center;
+}
+
+.likes-button {
+    width: 80px;
+    height: 26px;
+    background-color: #ffd966;
+    font-weight: bolder;
+    box-shadow: 3px 3px 0px black;
+}
+
+.flex-column-2 {
+    flex: 1;
+    padding: 20px;
+}
+
+.right-side-box {
+    background-color: floralwhite;
+    border: 2px solid black;
+    width: 270px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.definition-button {
+    width: 245px;
+    height: 41px;
+    background-color: #93c47d;
+    font-weight: bolder;
+    text-size-adjust: 100px;
+    box-shadow: 3px 3px 0px black;
 }
